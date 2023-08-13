@@ -36,6 +36,9 @@ body {
     .contact-info-link {
         color: rgb(255, 255, 255);
     }
+    .details-container-text {
+        color: rgb(255, 255, 255);
+    }
 }
  
 
@@ -315,7 +318,6 @@ section {
     flex-direction: column;
     display: flex;
 }
-
 .about-pic {
     border-radius: 2rem;
 }
@@ -358,12 +360,6 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
-}
-.experience-text-skill {
-    font-size: 20px;
-}
-.experience-text-proficiency {
-    font-size: 15px;
 }
 .experience-details-container {
     display: flex;
@@ -541,6 +537,9 @@ footer p {
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
+    .details-container-text {
+        font-size: 14px;
+    }
     .contact-info-upper-container {
         width: 240px;
     }
@@ -555,6 +554,12 @@ footer p {
     }
     .experience-sub-title {
         font-size: 1.25rem;
+    }
+    .experience-text-skill {
+        font-size: 14px;
+    }
+    .experience-text-proficiency {
+        font-size: 14px;
     }
     .logo {
         font-size: 1.5rem;
