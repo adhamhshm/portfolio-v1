@@ -1,4 +1,4 @@
-export function toggleMenu() {
+function toggleMenu() {
 
     //target an element on webpage
     const menu = document.querySelector(".menu-links");
@@ -9,9 +9,7 @@ export function toggleMenu() {
     icon.classList.toggle("open");
 }
 
-export function toggleTheme() {
+function toggleTheme() {
     const theme = document.body;
     theme.classList.toggle("dark-mode");
-}
-
-export { toggleMenu, toggleTheme };
+ }
