@@ -539,6 +539,8 @@ footer p {
     }
     .details-container-text {
         font-size: 14px;
+    }.details-container h3 {
+        font-size: 14px;
     }
     .contact-info-upper-container {
         width: 240px;
