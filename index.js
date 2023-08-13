@@ -12,4 +12,6 @@ export function toggleMenu() {
 export function toggleTheme() {
     const theme = document.body;
     theme.classList.toggle("dark-mode");
- }
+}
+
+export { toggleMenu, toggleTheme };
