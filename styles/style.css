@@ -698,6 +698,8 @@ footer p {
         text-align: initial;
         flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 0.5rem;
     }
     .project-containers-grid {
