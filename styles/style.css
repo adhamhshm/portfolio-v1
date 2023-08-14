@@ -15,6 +15,9 @@ body {
     #desktop-nav, #mobile-nav {
         background-color: rgb(18, 18, 18);
     }
+    .logo a {
+        color: rgb(255, 255, 255);
+    }
     .title {
         color: rgb(153, 153, 153);
     }
