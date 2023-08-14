@@ -30,17 +30,23 @@ body {
     .details-container {
         background: rgb(53, 53, 53);
     }
+    .details-container h3 {
+        color: rgb(227, 227, 227);
+    }
+    .details-container-skills {
+        background: rgb(53, 53, 53);
+    }
     .experience-sub-title {
         color: rgb(255, 255, 255);
     }
-    .experience-text-proficiency {
-        color: rgb(255, 255, 255);
+    .experience-text-skill {
+        color: rgb(0, 0, 0);
     }
     .contact-info-link {
         color: rgb(255, 255, 255);
     }
     .details-container-text {
-        color: rgb(255, 255, 255);
+        color: rgb(227, 227, 227);
     }
     .night-mode-icon {
         filter: invert();
@@ -125,6 +131,11 @@ a:hover {
     cursor: pointer; /* so that when hover to logo text, it did not change to text cursor */
 }
 
+.logo:hover a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 /* Mobile Navigation ------------------------------------------------- */
 
 #mobile-nav {
@@ -162,7 +173,7 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 100%;
+    top: 35px;
     right: 0;
     background-color: white;
     width: fit-content;
@@ -335,6 +346,7 @@ section {
 
 #about {
     position: relative;
+    height: fit-content;
 }
 
 .about-containers {
@@ -369,6 +381,14 @@ section {
     text-align: center;
 }
 
+.details-container-text {
+    font-size: 14px;
+}
+
+.details-container h3 {
+    font-size: 15px;
+}
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -385,6 +405,12 @@ section {
 #experience {
     position: relative;
 }
+.experience-text-skill {
+    font-size: 14px;
+}
+.experience-text-proficiency {
+    font-size: 14px;
+}
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
@@ -399,19 +425,43 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
 }
-
-article {
+.details-container-skills {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+.skills-container {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
     gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    width: 25rem;
+    margin: auto;
+    margin-top: 25px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 6px;
+    height: fit-content;
+    background-color: rgb(227, 227, 227);
+    border-radius: 0.5rem;
+    align-items: center;
 }
 
 article .icon {
@@ -592,7 +642,8 @@ footer p {
     }
     .details-container-text {
         font-size: 14px;
-    }.details-container h3 {
+    }
+    .details-container h3 {
         font-size: 14px;
     }
     .contact-info-upper-container {
@@ -609,6 +660,10 @@ footer p {
     }
     .experience-sub-title {
         font-size: 1.25rem;
+    }
+    .skills-container {
+        gap: 0.5rem;
+        width: fit-content;
     }
     .experience-text-skill {
         font-size: 14px;
