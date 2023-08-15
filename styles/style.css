@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     color: rgb(0, 0, 0);
 }
   
@@ -94,7 +94,7 @@ a, .btn {
     z-index: 9999; 
     width: 100%; 
     height: 10vh; 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
 }
 
 nav, .nav-links {
@@ -149,7 +149,7 @@ a:hover {
     z-index: 9999; 
     width: 100%;
     height: 10vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
 }
 
 .mobile-menu {
@@ -449,7 +449,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     /* justify-content: space-around; */
@@ -461,7 +461,7 @@ section {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    padding: 6px;
+    padding: 8px;
     height: fit-content;
     background-color: rgb(227, 227, 227);
     border-radius: 0.5rem;
@@ -555,10 +555,9 @@ article .icon {
 
 /* Footer Section ------------------------------------------------- */
 
-/* footer {
-    height: 26vh;
-    margin: 0 1rem;
-} */
+footer {
+    margin-bottom: 1rem;
+} 
   
 footer p {
     text-align: center;
