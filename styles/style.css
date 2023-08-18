@@ -18,6 +18,9 @@ body {
     .logo a {
         color: rgb(255, 255, 255);
     }
+    .logo:hover a:hover {
+        color: white;
+    }
     .title {
         color: rgb(153, 153, 153);
     }
