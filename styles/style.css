@@ -497,7 +497,7 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     width: 90%;
     height: 90%;
 }
