@@ -23,7 +23,7 @@
             </div>
             <div>
                 <ul class="nav-links">
-                    <li><img src="assets/night-mode-icon.png" alt="night mode" class="night-mode-icon"  onclick="toggleTheme()" /></li>
+                    <li><img src="assets/night-mode-icon.png" alt="night mode" class="night-mode-icon" onclick="toggleTheme()" /></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -58,14 +58,6 @@
                 <p class="section__text__p1">Hello, I am</p>
                 <h1 class="title">Adham Hisham</h1>
                 <p class="section__text__p2">Computer Science Graduate <br>(Software Engineering)</p>
-                <div class="btn-container">
-                    <!-- <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/10QIIjLKBPuk9odERhX_V4r1LZeJxloBs/view?usp=sharing', '_blank')" >
-                      Resume
-                    </button> -->
-                    <!-- <button class="btn btn-color-1" onclick="location.href='#contact'">
-                      Contact Info
-                    </button> -->
-                </div>
                 <div id="socials-container">
                     <img
                       src="assets/linkedin.png"
@@ -87,9 +79,6 @@
             <p class="section__text__p1">A Bit More</p>
             <h1 class="title">About Me</h1>
             <div class="section-container">
-                <!-- <div class="section__pic-container">
-                    <img src="assets/about-pic.png" alt="Profile picture" class="about-pic" />
-                </div> -->
                 <div class="about-details-container">
                     <div class="about-containers">
                         <div class="details-container">
@@ -169,24 +158,105 @@
             <h1 class="title">Projects</h1>
             <div class="experience-details-container">
                 <div class="project-containers-grid">
-                    <div class="details-container color-container">
-                        <div class="article-container">
-                            <img src="assets/web-screenshots/uniclubshub-app.png" alt="Uniclubshub App" class="project-img" />
+                    <div class="project-details-container color-container">
+                        <div class="left-details">
+                            <div class="article-container">
+                                <img src="assets/web-screenshots/uniclubshub-app.png" alt="Uniclubshub App" class="project-img" />
+                            </div>
+                            <h2 class="project-title">Uniclubshub</h2>
                         </div>
-                        <h2 class="project-title">Uniclubshub</h2>
-                        <p class="project-desc">
-                            My FYP that aims to increase clubs and societies engagement in the university.
-                        </p>
-                        <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/adhamhshm/uniclubshub', '_blank')" >
-                                Github
-                            </button>
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://uniclubshub.netlify.app/', '_blank')" >
-                                Demo
-                            </button>
+                        <div class="right-details">
+                            <p class="project-desc">
+                                A final year project that aims to develop a web-based system to assist and enhance the 
+                                engagement with student clubs and societies at the university. The system is built using 
+                                React.js for the frontend and utilizes Node.js, Express.js and MySQL for the backend.
+                                <br><br>
+                                *The deployed backend may experience brief downtime due to inactivity in the free tier 
+                                service subscription. Opening the website link may result in unresponsive clicks or some 
+                                loading time, as it requires the backend to restart (typically within 1 minute).
+                            </p>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/adhamhshm/uniclubshub', '_blank')" >
+                                    Github
+                                </button>
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://uniclubshub.netlify.app/', '_blank')" >
+                                    Demo
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="details-container color-container">
+                    <div class="project-details-container color-container">
+                        <div class="left-details">
+                            <div class="article-container">
+                                <img src="assets/web-screenshots/murmur-app.png" alt="Murmur App" class="project-img" />
+                            </div>
+                            <h2 class="project-title">Murmur App</h2>
+                        </div>
+                        <div class="right-details">
+                            <p class="project-desc">
+                                A web application about sharing and reading confessions anonymously without anyone knowing. 
+                                A self-directed project with some references from online resources. The application was
+                                built using Next.js, Tailwind CSS and MongoDB.
+                            </p>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/adhamhshm/murmur-app', '_blank')" >
+                                    Github
+                                </button>
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://murmur-app.vercel.app/', '_blank')" >
+                                    Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details-container color-container">
+                        <div class="left-details">
+                            <div class="article-container">
+                                <img src="assets/web-screenshots/bebenang-app.png" alt="Murmur App" class="project-img" />
+                            </div>
+                            <h2 class="project-title">Bebenang App</h2>
+                        </div>
+                        <div class="right-details">
+                            <p class="project-desc">
+                                A clone web application for a social media platform via an online tutorial. Build upon TypeScript, 
+                                Next.js, MongoDB, Clerk Authentication, shadcn/ui and Tailwind CSS.
+                                <br><br>
+                                A self-practice project via an online tutorial.
+                            </p>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/adhamhshm/bebenang-app', '_blank')" >
+                                    Github
+                                </button>
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://bebenang-app.vercel.app/', '_blank')" >
+                                    Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details-container color-container">
+                        <div class="left-details">
+                            <div class="article-container">
+                                <img src="assets/web-screenshots/giggers-app.png" alt="Giggers App" class="project-img" />
+                            </div>
+                            <h2 class="project-title">Uniclubshub</h2>
+                        </div>
+                        <div class="right-details">
+                            <p class="project-desc">
+                                Dribble clone web application project via an online tutorial for freelancer to showcase their work.
+                                The application is built upon TypeScript, Next.js, Cloudinary, Grafbase and Tailwind CSS. 
+                                <br><br>
+                                A self-practice project via an online tutorial.
+                            </p>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/adhamhshm/giggers-app', '_blank')" >
+                                    Github
+                                </button>
+                                <button class="btn btn-color-2 project-btn" onclick="window.open('https://giggers-app.vercel.app/', '_blank')" >
+                                    Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="details-container color-container">
                         <div class="article-container">
                             <img src="assets/web-screenshots/murmur-app.png" alt="Murmur App" class="project-img" />
                         </div>
@@ -236,7 +306,7 @@
                                 Demo
                             </button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
