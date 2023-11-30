@@ -338,6 +338,7 @@ section {
     width: 7rem;
     border-radius: 1.5rem;
     height: fit-content;
+    border: none;
 }
 
 .btn-color-1 {
@@ -346,7 +347,7 @@ section {
 }
 
 .btn-color-2 {
-    background-color: none;
+    background-color: rgb(227, 227, 227);
 }
 
 
@@ -357,7 +358,7 @@ section {
 
 .btn-color-2:hover {
     cursor: pointer;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(18, 18, 18);
     color: white;
 }
 
