@@ -276,9 +276,10 @@ section {
 }
 
 .section__pic-container img {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     margin: auto;
+    border-radius: 50%;
 }
 
 .section__text {
